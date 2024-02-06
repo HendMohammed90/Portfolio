@@ -1,27 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 import { CiMenuBurger } from "react-icons/ci";
+import { IoCloseCircle } from "react-icons/io5";
+import MobileNav from './MobileNav/MobileNav';
+import NavListItem from './NavListItem/NavListItem'
 
 
 
 export const Navbar = () => {
+
+    const[openMenu, setOpenMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setOpenMenu(!openMenu);
+    }
 return (
 <>
+
+<MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
 <nav className='nav-wrapper'>
     <div className="nav-content">
-        <img className='logo' src='/assets/images/logo.png' alt='logoImg' />
-
-        <ul>
-            <li><a className='menu-item' href="#home">Home</a></li>
-            <li><a className='menu-item' href="#skills">Skills</a></li>
-            <li><a className='menu-item' href="#workExperience">Work Experience</a></li>
-            <li><a className='menu-item' href="#contact">Contact Me</a></li>
-            <button className='contact-btn' onClick={()=>{}}>
-                Hire Me
-            </button>
-        </ul>
-        <button className='menu-btn' onClick={()=>{}}>
-        <CiMenuBurger />
+        <NavListItem />
+        <button className='menu-btn' onClick={toggleMenu}>
+        {openMenu ? <IoCloseCircle /> : <CiMenuBurger />}
         </button>
     </div>
 </nav>

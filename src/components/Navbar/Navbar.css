@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .logo{
@@ -62,9 +62,9 @@
 .contact-btn{
     font-size: 0.9rem;
     font-weight: 500;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color: #fff;
     background: linear-gradient(90deg ,  #a993fe 0% , #7e61e7 100%);
     padding: 0.6rem 2rem;
@@ -83,11 +83,8 @@
 
 .menu-btn{
     width: 2.5rem;
-    height: 2.5rem;
+    height: 2.2rem;
     font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     border-radius: 0.4rem;
     color: #fff;
@@ -116,7 +113,7 @@
     }
 }
 
-@media (max-width: 769px){
+@media (max-width: 792px){
     .menu-btn{
         display: block;
     }
