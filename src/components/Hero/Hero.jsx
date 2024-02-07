@@ -5,8 +5,8 @@ const Hero = () =>{
     return(
 <section className="hero-container">
     <div className="hero-content">
-        <h2>Building Digital Experience That Inspire</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, in neque? Quod natus minima ratione nesciunt quibusdam eveniet iste dolores voluptate quasi consequatur repellat, omnis error dolorum similique quidem asperiores?</p>
+        <h2>Empowering Innovation Through Technology"</h2>
+        <p>Software developer and systems architect with experience in designing, coding, and testing complex systems. highly proficient in Production and maintenance using Software Development technologies. Extensive knowledge of full Application development life cycle, MVC, Modular structure wiring, and workflow from scratch to production</p>
     </div>
     <div className="hero-img">
         <div>
