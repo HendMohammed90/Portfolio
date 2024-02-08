@@ -59,4 +59,36 @@ export const SKILLS = [
         ]
     },
 ]
+
+export const WORK_EXPERIENCE = [
+    {
+        title: "React - React Native Developer At Squip",
+        date:"Feb 2023 – Des 2023",
+        responsibilities: [
+            "Created a vital component (CustomAnswer) for the voting process, optimizing user data input for the Squip project.",
+            " Collaborated on developing and implementing websites, dashboards, and mobile projects using React and React Native.",
+            " Spearheaded 80% of the dashboard development, ensuring seamless integration with cross functional teams.",
+            "Executed crucial features in React and React Native, smoothly transitioning between frameworks and resolving design and UI issues.",
+            "Successfully integrated backend parts, overcoming challenges in rendering processes and displaying vote results.",
+            "Achieved effective collaboration with directors and a team of actors, contributing to cross functional teamwork in designing cohesive user experiences."
+        ]
+    },
+    {
+        title: "Mean Stack Developer / Front End Developer At Glopal Dev Gate Company Egypt ",
+        date: "Jan 2020 - Jan 2021",
+        responsibilities:[
+            "Converted mock-ups into HTML, JavaScript, AJAX, and JSON" ,
+            "Designed, implemented and monitored web pages and sites for continuous improvement in a fast paced environment.",
+            "Analyzed requirements and designed, developed, and implemented software applications for one website."
+        ]
+    },
+    {
+        title : "Professional Administrative Support At Upwork",
+        date: "Jan 2015 - ongoing",
+        responsibilities: [
+            "Managed multiple projects with a team of up to 4 people Performed in dramatic performances",
+            "Managed and completed 9 data projects with precision, showcasing attention to detail in scheduling and accuracy. This role required constant learning agility to adapt to new technologies and contribute to web and mobile development.",
+    ]
+    }
+]
     
