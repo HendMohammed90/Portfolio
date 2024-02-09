@@ -1,0 +1,28 @@
+.contact-details-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-details-card .icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #3d3072;
+    margin-bottom: 0.8rem;
+    padding: 0.3rem;
+}
+
+.contact-details-card p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
