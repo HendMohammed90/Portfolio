@@ -34,7 +34,7 @@
 
 .menu-item{
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #fff;
     position: relative;
@@ -45,7 +45,7 @@
     content: " ";
     width: 2rem;
     height: 0.2rem;
-    background: linear-gradient(90deg , #a993fe 0% , #7e61e7 100%);
+    background: linear-gradient(90deg , var(--color2) 0% , var(--color3) 100%);
     border-radius: 0.5rem;
     position: absolute;
     bottom: -0.6rem;
@@ -66,7 +66,7 @@
     align-items: center;
     justify-content: center; */
     color: #fff;
-    background: linear-gradient(90deg ,  #a993fe 0% , #7e61e7 100%);
+    background: linear-gradient(90deg , var(--color2) 0% , var(--color3) 100%);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
@@ -76,9 +76,9 @@
 }
 
 .contact-btn:hover{
-    color: #a993fe;
+    color: var(--color2);
     background: #000;
-    outline: 1.5px solid #a993fe;
+    outline: 1.5px solid var(--color2);
 }
 
 .menu-btn{
@@ -88,7 +88,7 @@
     border: none;
     border-radius: 0.4rem;
     color: #fff;
-    background: linear-gradient(90deg ,  #a993fe -0.13% , #7e61e7 99.87%);
+    background: linear-gradient(90deg ,  var(--color2) -0.13% , var(--color3) 99.87%);
     cursor: pointer;
     transition: all 0.4s ease;
     display: none;
@@ -96,9 +96,9 @@
 }
 
 .menu-btn:hover{
-    color: #a993fe;
+    color: var(--color2);
     background: #000;
-    border: 1px solid #a993fe;
+    border: 1px solid var(--color2);
 }
 
 
@@ -106,18 +106,16 @@
     .logo{
         width: 2.5rem;
     }
-
     .menu-btn{
         width: 2.3rem;
         height: 2rem;
     }
 }
 
-@media (max-width: 792px){
+@media (max-width: 810px){
     .menu-btn{
         display: block;
     }
-
     .nav-content ul{
         display: none;
     }
@@ -126,5 +124,8 @@
 @media (max-width: 1325px){
     .nav-wrapper{
         padding: 0 2rem;
+    }
+    .menu-item{
+        font-size: 0.9rem;
     }
 }

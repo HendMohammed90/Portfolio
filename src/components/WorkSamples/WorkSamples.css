@@ -18,7 +18,7 @@
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: var(--color1);
     z-index: -1;
     position: absolute;
     filter: blur(200px);

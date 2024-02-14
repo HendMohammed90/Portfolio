@@ -16,7 +16,7 @@
 .mobile-menu-container{
     width: 60vw;
     height: 100vh;
-    background-color: #342864;
+    background-color: var(--color4);
     padding: 2rem;
 }
 

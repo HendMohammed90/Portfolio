@@ -1,12 +1,5 @@
-.container{
-/* max-width:1280px; */
-/* min-height:100%;
-margin: 0 auto; */
-}
-
+@import './utils/colors.css';
 .content{
-  /* max-width: 1300px;
-  margin: 0 auto; */
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
