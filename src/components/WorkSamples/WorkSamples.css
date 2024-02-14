@@ -55,6 +55,7 @@ span {
     width: 20rem;
     max-height: 15rem;
     margin: 0.7rem;
+    cursor: pointer;
   }
   
 .samples-content img{

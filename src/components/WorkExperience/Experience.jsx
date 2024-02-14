@@ -25,7 +25,7 @@ const Experience = () => {
     ]
   };
   return (
-  <section className="experience-container">
+  <section className="experience-container" id='experience'>
     <h5>Experience</h5>
     <div className='experience-content'>
         <Slider {...settings}>
