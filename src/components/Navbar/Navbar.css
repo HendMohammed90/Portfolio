@@ -39,6 +39,8 @@
     color: #fff;
     position: relative;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 .menu-item::before{
