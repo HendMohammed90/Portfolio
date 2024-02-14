@@ -10,27 +10,27 @@ const WorkSamples = () => {
         illo harum quis aspernatur omnis beatae porro tempora est tenetur cupiditate eius, sequi suscipit.
       </span>
       <div className="samples-content">
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
-        <div class="image-container">
+        <div className="image-container">
          
           <img src="/assets/images/workSample.png" alt="workSample" />
         </div>
