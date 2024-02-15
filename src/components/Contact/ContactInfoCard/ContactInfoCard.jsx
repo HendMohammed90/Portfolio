@@ -8,8 +8,8 @@ const ContactInfoCard = ({text ,type}) => {
   return (
     <div className='contact-details-card'>
         <div className='icon'>
-        {type === iconType[0] && (<MdOutlineEmail size={40}/>)}
-        {type === iconType[1] && (<FaGithub size={40}/>)}
+        {type === iconType[0] && (<a href="mailto:email@email.de"><MdOutlineEmail size={40}  /></a>)}
+        {type === iconType[1] && (<a href='https://github.com/HendMohammed90' target='blank'><FaGithub size={40}/></a>)}
         </div>
       <p>{text}</p>
     </div>

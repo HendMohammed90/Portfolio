@@ -22,6 +22,10 @@
     padding: 0.3rem;
 }
 
+.contact-details-card .icon a{
+    color: white;
+}
+
 .contact-details-card p{
     font-size: 0.9rem;
     font-weight: 400;
