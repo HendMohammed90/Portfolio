@@ -16,19 +16,7 @@ const WorkSamples = () => {
           <a href="https://food-landing-page-gules.vercel.app/" target="blank"><img src="/assets/images/workSample1.png" alt="food-landing-page" /> </a>
         </div>
         <div className="image-container">
-          <img src="/assets/images/workSample.png" alt="workSample" />
-        </div>
-        <div className="image-container">
-         
-          <img src="/assets/images/workSample.png" alt="workSample" />
-        </div>
-        <div className="image-container">
-         
-          <img src="/assets/images/workSample.png" alt="workSample" />
-        </div>
-        <div className="image-container">
-         
-          <img src="/assets/images/workSample.png" alt="workSample" />
+          <a href="https://\todo-list-app-ecru-six.vercel.app/" target="blank"><img src="/assets/images/workSample3.png" alt="todo-list-app" /> </a>
         </div>
       </div>
     </section>
@@ -36,3 +24,4 @@ const WorkSamples = () => {
 };
 
 export default WorkSamples;
+// 
